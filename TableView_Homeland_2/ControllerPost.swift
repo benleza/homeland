@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ControllerPost: UIViewController {
+class ControllerPost: UIViewController, UITableViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
