@@ -8,11 +8,6 @@
 import UIKit
 import Foundation
 
-struct Dia {
-    var data: String
-    //oie []
-}
-
 struct Post {
     var texto:String
     var foto: UIImage
@@ -20,3 +15,7 @@ struct Post {
     //var tags = ["Português", "Matemática", "Ciências", "Religião", "Atividades Domésticas"]
 }
 
+struct Dia {
+    var data: String
+    var postagem: [Post] = []
+}
