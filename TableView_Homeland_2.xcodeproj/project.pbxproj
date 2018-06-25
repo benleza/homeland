@@ -19,6 +19,7 @@
 		108FBB4220E1123E008E31BA /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108FBB4120E1123E008E31BA /* Modelo.swift */; };
 		108FBB4420E12D95008E31BA /* Dia.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108FBB4320E12D95008E31BA /* Dia.storyboard */; };
 		108FBB4620E12E3D008E31BA /* Memoria.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108FBB4520E12E3D008E31BA /* Memoria.storyboard */; };
+		108FBB4C20E177A5008E31BA /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108FBB4B20E177A5008E31BA /* cardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		108FBB4120E1123E008E31BA /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
 		108FBB4320E12D95008E31BA /* Dia.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dia.storyboard; sourceTree = "<group>"; };
 		108FBB4520E12E3D008E31BA /* Memoria.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Memoria.storyboard; sourceTree = "<group>"; };
+		108FBB4B20E177A5008E31BA /* cardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				10121CFB20DBC90200727262 /* AppDelegate.swift */,
-				10121CFD20DBC90200727262 /* ViewController.swift */,
 				10121D2D20DBEAFB00727262 /* ViewControllerDia.swift */,
 				108FBB4120E1123E008E31BA /* Modelo.swift */,
 				10121D2F20DC386600727262 /* ControllerPost.swift */,
+				10121CFD20DBC90200727262 /* ViewController.swift */,
 				10121CFF20DBC90200727262 /* Main.storyboard */,
+				108FBB4B20E177A5008E31BA /* cardView.swift */,
 				108FBB4320E12D95008E31BA /* Dia.storyboard */,
 				108FBB4520E12E3D008E31BA /* Memoria.storyboard */,
 				10121D0220DBC90300727262 /* Assets.xcassets */,
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108FBB4C20E177A5008E31BA /* cardView.swift in Sources */,
 				10121CFE20DBC90200727262 /* ViewController.swift in Sources */,
 				10121D3020DC386600727262 /* ControllerPost.swift in Sources */,
 				10121CFC20DBC90200727262 /* AppDelegate.swift in Sources */,
