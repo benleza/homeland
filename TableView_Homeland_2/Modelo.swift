@@ -10,7 +10,7 @@ import Foundation
 
 struct Dia {
     var data: String
-    
+    //oie []
 }
 
 struct Post {
