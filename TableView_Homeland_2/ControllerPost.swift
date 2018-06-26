@@ -8,28 +8,71 @@
 
 import UIKit
 
-class ControllerPost: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+class ControllerPost: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate  {
+    
+    
+    
+    
+    
+    @IBOutlet weak var caixaDeTexto: UITextView!
+    
+    
+    
+    
+    @IBOutlet weak var visualizarImagem: UIImageView!
+    
+    @IBAction func ImportarImagem(_ sender: AnyObject) {
+       
+        let imagem = UIImagePickerController()
+        imagem.delegate = self
+        
+        imagem.sourceType = UIImagePickerControllerSourceType.photoLibrary
+        // ou .camera pare acessar a camera
+        
+        imagem.allowsEditing = false
+        // permitir edicao ou nao
+        
+        self.present(imagem, animated: true) {
+            // depois é completado
+        }
     }
-
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any])
+        {
+        if let imagem = info[UIImagePickerControllerOriginalImage] as? UIImage
+        {
+        visualizarImagem.image = imagem
+        }
+        else {
+            //mensagem de erro
+            
+            }
+            
+        self.dismiss(animated: true, completion: nil)
+    
+    }
+    
+    
+    override func viewDidLoad() {
+    super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
+        caixaDeTexto.backgroundColor = UIColor.lightGray
+        caixaDeTexto.font = UIFont.boldSystemFont(ofSize: 20)
+        //caixaDeTexto.font = UIFont(name:"Verdana", size:17)
+        
+        
+    }
+    
     override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
+   
+    
+    
+    
 
 }
