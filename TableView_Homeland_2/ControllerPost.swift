@@ -8,6 +8,7 @@
 
 import UIKit
 
+<<<<<<< HEAD
 class ControllerPost: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate  {
     
     
@@ -53,6 +54,10 @@ class ControllerPost: UIViewController, UINavigationControllerDelegate, UIImageP
     }
     
     
+=======
+class ControllerPost: UIViewController, UITableViewDelegate {
+
+>>>>>>> master
     override func viewDidLoad() {
     super.viewDidLoad()
         // Do any additional setup after loading the view.
