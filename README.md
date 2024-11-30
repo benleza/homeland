@@ -1,6 +1,6 @@
 # Projeto iOS Foundations - Homeland
 
-O **Homeland** foi um aplicativo desenvolvido como parte do **Programa iOS Foundations** para ajudar no processo de educação alternativa, proporcionando aos pais as ferramentas necessárias para aplicar o conceito de *homeschooling* com mais asertividade e organização. O aplicativo visa melhorar a gestão de atividades educacionais e oferecer uma experiência amigável e prática para os pais, com uma interface interativa e funcionalidades específicas para facilitar o aprendizado em casa, proporcionando ferramentas para organizar e visualizar atividades educacionais de maneira intuitiva.
+O **Homeland** foi um aplicativo desenvolvido como parte do **Programa iOS Foundations** para ajudar no processo de educação alternativa, proporcionando aos pais as ferramentas necessárias para aplicar o conceito de *homeschooling* com assertividade e organização. O aplicativo visa melhorar a gestão de atividades educacionais e oferecer uma experiência amigável e prática para os pais, com uma interface interativa e funcionalidades específicas para facilitar o aprendizado em casa.
 
 ## Funcionalidades
 
@@ -12,17 +12,17 @@ O **Homeland** foi um aplicativo desenvolvido como parte do **Programa iOS Found
 
 ## Tecnologias Utilizadas
 
-- **Xcode**: A principal plataforma utilizada para o desenvolvimento iOS.
-- **Swift**: Linguagem de programação usada para criar a lógica do aplicativo.
+- **Xcode**: Plataforma utilizada para o desenvolvimento iOS.
+- **Swift**: Linguagem de programação usada para o desenvolvimento.
 - **Storyboards**: Para o design visual e construção da interface gráfica.
 - **Assets**: Ícones e imagens personalizados para melhorar a experiência do usuário.
 
 ## Estrutura do Projeto
 
-O projeto é composto por várias funcionalidades-chave implementadas nos seguintes arquivos principais:
+O projeto foi composto por várias funcionalidades-chave implementadas nos seguintes arquivos principais:
 
 - **Arquivos de código**:
-  - `AppDelegate.swift`: Controle do ciclo de vida do aplicativo.
+  - `AppDelegate.swift`: Controle do ciclo de vida do app.
   - `CameraHandler.swift`: Gerenciamento das funcionalidades da câmera.
   - `TableViewController.swift`: Controla a tabela de visualizações.
   - `ViewController.swift`: Controle das vistas principais.
