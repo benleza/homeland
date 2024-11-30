@@ -1,4 +1,4 @@
-# Projeto iOS Foundations - Homeland
+# Homeland - iOS Foundations 
 
 O **Homeland** foi um aplicativo desenvolvido como parte do **Programa iOS Foundations** para ajudar no processo de educação alternativa, proporcionando aos pais as ferramentas necessárias para aplicar o conceito de *homeschooling* com assertividade e organização. O aplicativo visa melhorar a gestão de atividades educacionais e oferecer uma experiência amigável e prática para os pais, com uma interface interativa e funcionalidades específicas para facilitar o aprendizado em casa.
 
